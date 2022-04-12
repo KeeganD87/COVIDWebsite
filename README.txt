@@ -1,6 +1,10 @@
 This is a final project created for CMPE 332 Introduction to Databases course. It is a combination of a mySQL database, and a COVID Vaccine web application. 
 The web application is intended to display certain information contained in the database, such as vaccination sites and which vaccine doses are available there. 
-A person may record a vaccination they have received and they will be added as a patient to the existing database. 
-To run this program, you will need XAMPP to locally host the webpage. 
-Through XAMPP, you must run the SQL script to create the database and add values. 
-Once the phpmyadmin and sqlmyadmin are running, you can go to localhost/covid.php which will direct you to the website mainpage.
+
+To run this project:
+
+  1. Start Apache and MySQL through XAMPP
+  2. In MySQL go to SQL tab and run contents of Create_MySQL_Database.sql
+  3. Go to http://localhost/covid.php
+  
+  Video to demonstrate functionality: https://youtu.be/-JTA4xNKAQ4
