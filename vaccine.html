@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <title>Record a Vaccination</title>
+    <link rel="stylesheet" href="style.css">
+	<style>
+.enterohip {
+	font-size: 24px;
+	color: #f2f2f2;
+	font-family: "Arial Black";
+}
+.content {
+	text-align: center;
+}
+.click {
+	padding: 7px 15px;
+	font-family: Arial, sans-serif;
+	background-color: #3764b8;
+	color: #f2f2f2;
+	font-size: 20px;
+}
+</style>
+	
+</head>
+<body>
+
+<div class="topnav">
+    <a href="covid.php">Home</a>
+    <a class="active" href="vaccine.html">Record a Vaccination</a>
+    <a href="about.php">About</a>
+</div>
+	
+	<div class="content">
+		<img src="vaccine3.png" alt="covid vaccine doses" class="center" width="1700" height="300">
+		<h1>Please enter your OHIP Number</h1>
+		
+		<form class="enterohip" action="checkOHIP.php" method = "post">
+		OHIP Number: <input type="text" name="PatientOHIPNum">
+		<input class ="click" type="submit" value="Enter" size="1"><br>
+		</form>
+		
+		
+	</div>
+
+</body>
+</html>
