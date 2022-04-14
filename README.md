@@ -8,7 +8,7 @@ this, a user may look at the types of vaccines available and they will be shown 
 
 To run this project:
 
-Start Apache and MySQL through XAMPP
-In MySQL go to SQL tab and run contents of Covid Database.sql
-Go to http://localhost/covid.php
+1. Start Apache and MySQL through XAMPP
+2. In MySQL go to SQL tab and run the SQL script to create the database (if it is the first time running the script, the first line will need to be removed)
+3. Go to http://localhost/covid.php
 Video to demonstrate functionality: https://youtu.be/-JTA4xNKAQ4
